@@ -1,6 +1,7 @@
 def greet(name):
-    print('Hello, {}'.format(name))
+    return 'Hello, {}'.format(name)
 
 
 if __name__ == '__main__':
-    greet('Formigone')
+    msg = greet('Formigone')
+    print(msg)
